@@ -169,7 +169,7 @@ button {
 
 .main::before {
   content: '';
-  background-image: url('/images/bg-curve-desktop.svg');
+  background-image: url('./images/bg-curve-desktop.svg');
   background-size: cover;
   background-position: center center;
   position: absolute;
@@ -331,7 +331,7 @@ footer .fas {
   }
   .main::before {
     content: '';
-    background-image: url('/images/bg-curve-mobile.svg');
+    background-image: url('./images/bg-curve-mobile.svg');
     height: 80px;
   }
   .main .testimonial-box {
@@ -371,4 +371,3 @@ footer .fas {
     width: 100%;
   }
 }
-/*# sourceMappingURL=main.css.map */

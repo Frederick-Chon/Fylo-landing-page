@@ -5,9 +5,8 @@ Fylo is a landing page challenge from [frontendmentor](https://www.frontendmento
 # Technologies
 
 - HTML
-
 - CSS
 
 ## Live Version
 
-Coming soon!
+[Live Demo](https://frederick-chon.github.io/Fylo-landing-page/)
