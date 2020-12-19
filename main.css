@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -40,23 +40,23 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .align {
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .flex > div,
 .flex > ul {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .flex > div:first-child {
@@ -73,11 +73,11 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 30px 0;
 }
 
@@ -113,8 +113,8 @@ input {
   border-radius: 2px;
   padding: 15px;
   -webkit-box-flex: 0.7;
-      -ms-flex: 0.7;
-          flex: 0.7;
+  -ms-flex: 0.7;
+  flex: 0.7;
   outline: none;
 }
 
@@ -144,19 +144,19 @@ button {
   padding: 15px;
   color: #fff;
   -webkit-box-flex: 0.3;
-      -ms-flex: 0.3;
-          flex: 0.3;
+  -ms-flex: 0.3;
+  flex: 0.3;
   margin-left: 10px;
   cursor: pointer;
   -webkit-filter: brightness(1);
-          filter: brightness(1);
+  filter: brightness(1);
   outline: none;
 }
 
 .header-btn:hover,
 .more-info-btn:hover {
   -webkit-filter: brightness(1.4);
-          filter: brightness(1.4);
+  filter: brightness(1.4);
 }
 
 /* Main content */
@@ -169,7 +169,7 @@ button {
 
 .main::before {
   content: '';
-  background-image: url("/images/bg-curve-desktop.svg");
+  background-image: url('/images/bg-curve-desktop.svg');
   background-size: cover;
   background-position: center center;
   position: absolute;
@@ -185,20 +185,20 @@ button {
   padding-bottom: 2px;
   border-bottom: 1px solid #3c9f8f;
   -webkit-filter: brightness(1);
-          filter: brightness(1);
+  filter: brightness(1);
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
 .main a:hover {
   -webkit-filter: brightness(1.2);
-          filter: brightness(1.2);
+  filter: brightness(1.2);
 }
 
 /* Testimonial */
 .testimonial-box {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   border-radius: 3px;
   background-color: #fff;
   padding: 25px;
@@ -240,16 +240,16 @@ button {
 .more-info form {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .more-info form input {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: none;
 }
 
@@ -285,11 +285,11 @@ footer .socials {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 footer .circle {
@@ -300,11 +300,11 @@ footer .circle {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-right: 10px;
   height: 40px;
   width: 40px;
@@ -331,7 +331,7 @@ footer .fas {
   }
   .main::before {
     content: '';
-    background-image: url("/images/bg-curve-mobile.svg");
+    background-image: url('/images/bg-curve-mobile.svg');
     height: 80px;
   }
   .main .testimonial-box {
@@ -339,13 +339,13 @@ footer .fas {
   }
   .main .testimonial-box .user-info {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .more-info form input {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
   .more-info form button {
     margin: 20px 0;
@@ -354,8 +354,8 @@ footer .fas {
   .flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .flex > div {
     width: 100%;
